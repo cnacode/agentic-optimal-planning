@@ -1,0 +1,7 @@
+(take-bus-to-terminal home bus-terminal)
+(take-bus-to-airport bus-terminal airport)
+(walk-to-security airport security)
+(go-through-security security post-security)
+(walk-to-gate post-security gate)
+(board-flight gate)
+; cost = 6 (general cost)
